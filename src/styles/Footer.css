@@ -1,0 +1,29 @@
+.footer--section--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:50px 200px;
+    align-items: center;
+    justify-content: space-between;
+    gap:100px;
+}
+
+.footer--section--left {
+    flex:1;
+    font-size: 36px;
+}
+
+.footer--section--right {
+    flex:1;
+}
+
+.footer--section--left > a {
+    color: brown;
+}
+
+.footer--section--right > ul{
+    list-style: none;
+}
+
+.footer--section--right > ul > li{
+    margin-bottom: 20px;
+}

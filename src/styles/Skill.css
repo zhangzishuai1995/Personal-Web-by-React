@@ -1,0 +1,94 @@
+.skill--section {
+    display: flex;
+    background-color: white;
+    padding: 85px 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 80px;
+}
+.skill--section--container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    gap: 100px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skill--section--card {
+    flex:1;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 10px;
+    background: #FFFEF4;
+    min-height: 450px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  }
+
+
+.skill--section--card--image {
+    display: flex;
+    padding: 13.3px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.3px;
+    border-radius: 10.6px;
+}
+
+.skill--section--card--image > img {
+    width:70%;
+}
+
+.skill--section--card--content {
+    white-space: pre-line;
+    flex:1;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+.skill--section--card--content > h3 {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.skill--section--card--content > p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .skill--section--heading {
+      font-size: 54px;
+      line-height: 70px;
+    }
+    .skill--section--container {
+      gap: 45px;
+    }
+    .skill--section--card {
+      min-width: 420px;
+      gap: 28px;
+    }
+    .skill--section--card--content {
+      gap: 20px;
+    }
+    .skill--section--card--title {
+      font-size: 23px;
+      line-height: 30px;
+    }
+    .skill--section--card--detail {
+      font-size: 17.333px;
+      line-height: 27px;
+    }
+
+  .skill--section--container,
+  .portfolio--section--container {
+    display: flex;
+    flex-direction: column;
+  }
+}

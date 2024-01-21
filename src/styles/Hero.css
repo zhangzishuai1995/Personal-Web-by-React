@@ -1,0 +1,43 @@
+.hero--section--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:133px 200px;
+    align-items: center;
+    justify-content: space-between;
+    gap:32px;
+}
+
+.hero--section--text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: right;
+}
+.hero--section--image > img {
+    width:75%;
+    height: 75%;
+}
+
+.tags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+.tags > p {
+    background-color: black; 
+    color: white;
+    padding:3px 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.tags > p:hover{
+    color:var(--white);
+    background-color: var(--primary);
+}
+
+
+
+

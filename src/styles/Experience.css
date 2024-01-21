@@ -1,0 +1,51 @@
+.experience--section {
+    flex-direction: column;
+}
+.experience--section--title {
+    padding: 85px 200px;
+}
+
+.experience--section--container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 45px 200px;
+  }
+
+.experience--section--left {
+    flex: 0.6;
+}
+
+.experience--section--right {
+    flex:1;
+}
+
+.midbar {
+    position: absolute;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    left: 33%;
+}
+.line {
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: right;
+    background-size: 2px 30px;
+    background-repeat: repeat-y;
+    left: 48%;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.experience--section--container .circle {
+    border-radius: 50%;
+    background: black;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-top: 0.5rem;
+}

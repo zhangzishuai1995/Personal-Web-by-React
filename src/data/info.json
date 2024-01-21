@@ -1,0 +1,71 @@
+{
+    "Experience":[
+        {
+            "id":"1",
+            "title":"Texas A&M",
+            "time":"Sept 2019 - May 2021",
+            "role":"Student",
+            "detail":"After completing two years of community college, I transferred to Texas A&M University, where I began my studies in applied mathematics and computer science.During my studies at Texas A&M University, I was first introduced to Python. This encounter sparked a profound interest in me. Although I wasn't strongly inclined toward becoming a programmer, I found myself deeply fascinated by the intersection of mathematics and Python. Engaging with Python wasn't just about learning a programming language; it was about discovering a tool that allowed me to explore and expand my mathematical capabilities in innovative ways. This experience solidified my desire to pursue a profession where I can delve into both mathematics and Python, as they genuinely captivate my interest."
+        },
+        {
+            "id":"2",
+            "title":"Jizhi Tech",
+            "time":"Oct 2021 - March 2023",
+            "role":"Product Manager",
+            "detail":"Jizhi is a startup in Shanghai, and my role is a product manager. Our first project was to develop a 3D scanning mobile app that utilizes the LiDAR scanner built into Apple's smartphones to create 3D models of objects or rooms. Throughout the entire product lifecycle, my responsibilities included gathering requirements from the founders, collecting data from competitors, designing the product, assigning tasks to UI designers and front-end/back-end developers, managing project progress, and iterating on the product. Unfortunately, the project ultimately ended in failure. Today, you can still find it on Apple's App Store, but only the most basic scanning functionality remains functional."
+        },
+        {
+            "id":"3",
+            "title":"Reflection",
+            "time":"July 2023 - ",
+            "role":"Self-Directed Learner",
+            "detail":"During my reflection period, I self-taught React and used it to build my personal website. Additionally, I developed a small project named \"HeldHelp\". This project aims to assist non-native English speakers by transcribing spoken words into text through the website. It features a personalized vocabulary database, allowing users to immediately translate unfamiliar English words into another language. This tool is especially useful for those who struggle with English, providing them with an accessible way to understand and engage in English conversations."
+        }
+    ],
+    "Project":[
+        {
+            "id":"1",
+            "title":"ZaiChang",
+            "detail":"ios App",
+            "src":"./images/port1.png",
+            "link":"https://apps.apple.com/us/app/%E5%9C%A8%E5%9C%BA-%E5%9C%BA%E6%99%AF3d%E9%80%9F%E5%86%99/id1628959228",
+            "text":"View in App Store"
+        },
+        {
+            "id":"2",
+            "title":"Personal Web",
+            "detail":"React",
+            "src":"./images/pw.png",
+            "link":"https://apps.apple.com/us/app/%E5%9C%A8%E5%9C%BA-%E5%9C%BA%E6%99%AF3d%E9%80%9F%E5%86%99/id1628959228",
+            "text":"View in Github"
+        },
+        {
+            "id":"3",
+            "title":"HeldHelp",
+            "detail":"Python",
+            "src":"./images/port3.png",
+            "link":"https://apps.apple.com/us/app/%E5%9C%A8%E5%9C%BA-%E5%9C%BA%E6%99%AF3d%E9%80%9F%E5%86%99/id1628959228",
+            "text":"View in Github"
+        }
+    ],
+    "Skill":[
+        {
+            "id":"1",
+            "title":"Product Management",
+            "src":"./images/pm.png",
+            "detail":"Competitive Analysis\n  Prototype Design\n Frontend-Backend Integration\n Seed User Acquisition"
+        },
+        {
+            "id":"2",
+            "title":"Programming",
+            "src":"./images/coding.png",
+            "detail":"HTML/CSS\n JavaScript\n React\n Python"
+        },
+        {
+            "id":"3",
+            "title":"Others",
+            "src":"./images/other.png",
+            "detail":"AI images Creator by Stable Diffusion\n "
+        }
+    ]
+}
