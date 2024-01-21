@@ -25,7 +25,7 @@
     "Project":[
         {
             "id":"1",
-            "title":"ZaiChang",
+            "title":"Zai Chang",
             "detail":"ios App",
             "src":"./images/port1.png",
             "link":"https://apps.apple.com/us/app/%E5%9C%A8%E5%9C%BA-%E5%9C%BA%E6%99%AF3d%E9%80%9F%E5%86%99/id1628959228",
@@ -36,7 +36,7 @@
             "title":"Personal Web",
             "detail":"React",
             "src":"./images/pw.png",
-            "link":"https://apps.apple.com/us/app/%E5%9C%A8%E5%9C%BA-%E5%9C%BA%E6%99%AF3d%E9%80%9F%E5%86%99/id1628959228",
+            "link":"https://github.com/zhangzishuai1995/Personal-Web-by-React.git",
             "text":"View in Github"
         },
         {
@@ -44,7 +44,7 @@
             "title":"HeldHelp",
             "detail":"Python",
             "src":"./images/port3.png",
-            "link":"https://apps.apple.com/us/app/%E5%9C%A8%E5%9C%BA-%E5%9C%BA%E6%99%AF3d%E9%80%9F%E5%86%99/id1628959228",
+            "link":"https://github.com/zhangzishuai1995/Whisper-Desktop.git",
             "text":"View in Github"
         }
     ],

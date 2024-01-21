@@ -14,8 +14,8 @@ export default function Footer() {
                 variants={footerVariants}
                 className="footer--section--container">
                 <div className="footer--section--left">
-                    <span>If there is anything<br/> I can assist you with,<br/> </span>
-                    <a href="mailto:zzseeqdez@outlook.com">Let me know.</a>
+                    <span>I look forward to <br/> connecting with you.<br/> </span>
+                    <a href="mailto:zzseeqdez@outlook.com">Let's get in touch.</a>
                 </div>
                 <div className="footer--section--right">
                 <ul>

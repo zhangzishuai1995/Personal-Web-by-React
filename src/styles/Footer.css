@@ -1,19 +1,22 @@
 .footer--section--container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding:50px 200px;
+    grid-template-areas: 
+      "left right";
+    grid-template-columns: 1fr auto; /* 右侧列使用auto，根据内容调整宽度 */
+    padding: 50px 200px;
     align-items: center;
     justify-content: space-between;
-    gap:100px;
+    gap: 300px;
 }
 
 .footer--section--left {
-    flex:1;
+    grid-area: left;
     font-size: 36px;
 }
 
 .footer--section--right {
-    flex:1;
+    margin-right: 50px;
+    grid-area: right;
 }
 
 .footer--section--left > a {
